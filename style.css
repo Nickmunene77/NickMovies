@@ -1,0 +1,74 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(49, 46, 46);
+}
+.topNav{
+    
+    overflow: hidden;
+    padding: 10px;
+    color: black;
+}
+
+.topNav a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.topNav .search-container{
+    float: right;
+
+}
+h2{
+    color: aliceblue;
+}
+
+form{
+    background-color: rgb(17, 18, 18);
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+input{
+    all: unset;
+    font: 15px system-ui;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.thumbnail{
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+    text-align: center;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+
+}
+.card{
+    border-radius: 19px ;
+    text-align: center;
+    background-color: rgb(33, 31, 31);
+    color: aliceblue;
+    font-weight: 500;
+    font-style: italic;
+
+}
